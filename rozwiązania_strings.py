@@ -111,6 +111,5 @@ print(index)
 # "work" na "programming" (Uwzględnij pierwsze wystąpienie z wielkiej litery!),
 # "dirt" na "python"
 # Wykorzystaj metodę replace()
-piosenka_programisty = \
-    fragment_piosenki.replace("Work", "Programming").replace("work", "programming").replace("dirt", "python")
+piosenka_programisty = fragment_piosenki.replace("Work", "Programming").replace("work", "programming").replace("dirt", "python")
 print(piosenka_programisty)
