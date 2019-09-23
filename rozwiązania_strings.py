@@ -81,7 +81,6 @@ extensions = ("bmp",".png", ".jpg", ".jpeg")
 print(name_1.endswith(extensions))
 
 
-
 # Zadanie 9
 # Napisz program który policzy ile razy Rihanna śpiewa "work" we fragmencie swojego utworu
 # Wykorzystaj metodę count()
@@ -111,5 +110,6 @@ print(index)
 # "work" na "programming" (Uwzględnij pierwsze wystąpienie z wielkiej litery!),
 # "dirt" na "python"
 # Wykorzystaj metodę replace()
-piosenka_programisty = fragment_piosenki.replace("Work", "Programming").replace("work", "programming").replace("dirt", "python")
+piosenka_programisty = \
+    fragment_piosenki.replace("Work", "Programming").replace("work", "programming").replace("dirt", "python")
 print(piosenka_programisty)
